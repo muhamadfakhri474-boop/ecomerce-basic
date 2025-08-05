@@ -1,0 +1,97 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rank Sports</title>
+  <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="font-sans text-gray-800 bg-gray-200">
+
+  
+  <header class="flex items-center justify-between p-4 border-b sticky top-0 z-50 bg-gray-100">
+    <div class="text-lg font-bold">Logo</div>
+    <div class="w-1/2 relative">
+      <input type="text" placeholder="Cari produk..." class="w-full border rounded-full py-2 px-4" />
+    </div>
+    <div class="space-x-2">
+      <a href="Login.html" class="text-sm">Log in</a>
+      <span class="text-sm">/</span>
+      <a href="Register.html" class="text-sm">Register</a>
+    </div>
+  </header>
+
+  
+  <section class="relative w-full h-96 bg-cover bg-center" style="background-image: url('/assets/banner.png')">
+    <div class="absolute inset-0 flex flex-col justify-center pl-10 text-white mt-12">
+      <h1 class="text-3xl font-bold">Koleksi Musim Panas 2025</h1>
+      <p class="mt-2">Temukan gaya terbaru untuk aktivitas olahraga Anda dengan koleksi eksklusif kami.</p>
+      <div class="mt-4 space-x-4">
+        <button class="bg-white text-black px-4 py-2 rounded">Belanja Sekarang</button>
+        <button class="border border-white px-4 py-2 rounded">Lihat Koleksi</button>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="text-left mt-10">
+    <h2 class="text-xl font-bold mb-6 text-center">Produk Unggulan</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3  gap-6 px-6">
+      <div class="relative">
+        <img src="/assets/Screenshot 2025-05-06 130715.png" alt="Pria" class="w-full rounded" />
+        <div class="absolute bottom-4 left-4 text-white">
+          <h3 class="font-bold text-2xl">Pria</h3>
+          <p class="text-sm">Koleksi Lengkap Untuk Pria Aktif</p>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="/assets/Screenshot 2025-05-06 131023.png" alt="Anak-Anak" class="w-full rounded" />
+        <div class="absolute bottom-4 left-4 text-white">
+          <h3 class="font-bold text-2xl">Anak-Anak</h3>
+          <p class="text-sm">Pakaian Olahraga Nyaman Untuk Si Kecil</p>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="/assets/Screenshot 2025-05-06 133947.png" alt="Wanita" class="w-full h-full rounded" />
+        <div class="absolute bottom-4 left-4 text-white">
+          <h3 class="font-bold text-2xl">Wanita</h3>
+          <p class="text-sm">Tampil Stylish Dalam Setiap Aktivitas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="text-center mt-12">
+    <h2 class="text-xl font-bold mb-6">Produk Terlaris</h2>
+    <div id="produk-terlaris" class="grid grid-cols-2 md:grid-cols-4 gap-6 px-6"></div>
+  </section>
+  
+
+  <footer class="mt-10 bg-gray-100 p-6 grid md:grid-cols-3 gap-6 text-sm">
+    <div>
+      <h3 class="font-bold mb-2">Rank Sports</h3>
+      <p>Toko olahraga terlengkap dengan produk berkualitas untuk semua kebutuhan olahraga Anda.</p>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2">Costumer Service</h3>
+      <ul>
+        <li>Pusat Bantuan</li>
+        <li>Pengembalian Barang</li>
+        <li>Cara Pembayaran</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2">Contact Us</h3>
+      <p>📞 +62 0821-456-7899</p>
+      <p>✉️ RankSports@gmail.com</p>
+    </div>
+  </footer>
+
+  <div class="text-center text-md p-4">
+    &copy; 2025 Muhamad Fakhri X RPL 2, Inc. All rights reserved
+  </div>
+
+  <script src="/script/ambilproduk.js">
+  </script>
+</body>
+</html>

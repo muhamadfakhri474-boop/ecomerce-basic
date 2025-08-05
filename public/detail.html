@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../dist/output.css" />
+  <title>Detail Produk</title>
+</head>
+<body>
+  <header class="flex items-center justify-between p-4 border-b sticky top-0 z-50 bg-gray-100">
+    <div class="text-lg font-bold">Logo</div>
+    <div class="w-1/2 relative">
+      <input type="text" placeholder="Cari produk..." class="w-full border rounded-full py-2 px-4" />
+    </div>
+    <div class="space-x-2 flex gap-2">
+      <img src="/assets/bell.png" class="w-7" alt="#">
+      <a href="cart.html">
+        <button><img src="/assets/shopping-cart.png" class="w-7" alt=""></button>
+      </a>
+      <img src="/assets/user (1).png" class="w-7" alt="">
+    </div>
+  </header>
+
+  <div id="detail"></div>
+
+  <section class="text-center mt-12">
+    <div id="produk-terlaris" class="grid grid-cols-4 md:grid-cols-4 gap-6 px-6"></div>
+  </section>
+
+  <footer class="mt-10 bg-gray-100 p-6 grid md:grid-cols-3 gap-6 text-sm">
+    <div>
+      <h3 class="font-bold mb-2">Rank Sports</h3>
+      <p>Toko olahraga terlengkap dengan produk berkualitas untuk semua kebutuhan olahraga Anda.</p>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2">Customer Service</h3>
+      <ul>
+        <li>Pusat Bantuan</li>
+        <li>Pengembalian Barang</li>
+        <li>Cara Pembayaran</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-bold mb-2">Contact Us</h3>
+      <p>📞 +62 0821-456-7899</p>
+      <p>✉️ RankSports@gmail.com</p>
+    </div>
+  </footer>
+
+  <div class="text-center text-md p-4">
+    &copy; 2025 Muhamad Fakhri X RPL 2, Inc. All rights reserved
+  </div>
+
+  <script src="../script/detail.js"></script>
+</body>
+</html>

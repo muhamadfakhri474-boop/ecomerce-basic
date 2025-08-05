@@ -1,0 +1,6 @@
+header{
+    z-index: 1;
+    position: fixed;
+    width: -webkit-fill-available;
+    background-color: rgb(224, 221, 221);
+}
